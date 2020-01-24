@@ -11,13 +11,13 @@ export default function LaunchPad() {
   memo(() => {
     setTimeout(() => { triggerRerender(rerenderCount + 1); }, 500);
   }, [rerenderCount])
-  
+  console.log("rerender count :"+rerenderCount)
   return (
 
     // use class component or functional component <FunctionalRocket/>
 
     <div className="launchpad">
-      <ClassRocket />
+      <FunctionalRocket />
     </div>
   );
 }
