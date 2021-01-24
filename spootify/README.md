@@ -32,3 +32,8 @@
 
 ![screenshot-desktop](https://puu.sh/GwPLE/3be580156a.png)
 ![screenshot-mobile](https://puu.sh/GwPLS/0bcb566d23.png)
+
+
+# explaination
+
+- enter the secret and credetials of spotify api and run the app ` npm start`
