@@ -23,7 +23,7 @@ Modified Files
     routes/index.js,routes/SecondRoute
 
 ### Demo
-- ![Demo](https://drive.google.com/file/d/1hNohadfV5GFUK8BDImlnE61l-ZR_aDVR/view?usp=sharing)
+- ![Demo](https://github.com/user-amanshah/react-coding-challenges/blob/master/demo/dark-mode.gif)
 
 # Rocket Challenge
 
@@ -47,7 +47,7 @@ Modified Files
 
 ### Demo
     
-![Here the counter value stays 0 ](https://drive.google.com/file/d/1i5ak-qYSsUNm2z_NF4GNxVa7rWdaDCQe/view?usp=sharing)
+![Here the counter value stays 0](https://github.com/user-amanshah/react-coding-challenges/blob/master/demo/rocket.gif)
 
 # Spotify api
 
@@ -67,4 +67,4 @@ Modified Files
     Discover/components/Discover.js
 
 ### Demo
-![Here the loading animation can be also viewed ](https://drive.google.com/file/d/1oGqZAyTcWf26FnIWBIbmREoDXypBsSwf/view?usp=sharing)
+![Here the loading animation can be also viewed](https://github.com/user-amanshah/react-coding-challenges/blob/master/demo/spootify.gif)
