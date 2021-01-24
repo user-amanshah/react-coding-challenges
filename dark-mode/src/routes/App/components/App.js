@@ -3,9 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import '../styles/_app.scss';
 
-function App() {
+//pass prop values in component
+function App(props) {
+  const {mode, setMode} = props
+
   return (
-    <div className="app">
+    //use ternerary operator to change classname to dark theme
+    <div className={`app ${mode ? "dark-mode" :""}`}>
+
       <div className="level">
         <div>
           <h1 className="title">Dark Mode Challenge</h1>
@@ -13,7 +18,9 @@ function App() {
 
         {/* --The button that should toggle dark mode-- */}
         <button className="app__dark-mode-btn icon level-right">
-          <FontAwesomeIcon icon={faMoon} />
+
+          { /* use ternary operator to change button color */ }
+          <FontAwesomeIcon icon={faMoon} color={mode ? 'white' : 'dark'} />
         </button>
 
       </div>
